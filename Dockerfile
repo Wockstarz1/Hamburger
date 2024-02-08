@@ -4,7 +4,7 @@ RUN apk add --no-cache git
 
 RUN git clone https://github.com/<user>/<the forked repo name>.git
 
-WORKDIR /<Interstellar>
+WORKDIR Wockstarz1/<Interstellar>
 
 RUN npm install
 
