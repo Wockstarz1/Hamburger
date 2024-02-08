@@ -2,9 +2,9 @@ FROM node:20-alpine
 
 RUN apk add --no-cache git
 
-RUN git clone https://github.com/<user>/<the forked repo name>.git
+RUN git clone https://github.com/Wockstarz1/Interstellar.git
 
-WORKDIR Wockstarz1/<Interstellar>
+WORKDIR /Interstellar
 
 RUN npm install
 
